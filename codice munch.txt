@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostra 3D di Edvard Munch</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <style>
+        body { margin: 0; }
+        #info { 
+            position: absolute; 
+            top: 10px; 
+            left: 10px; 
+            background: rgba(255, 255, 255, 0.8); 
+            padding: 10px; 
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="info">Clicca sui dipinti per maggiori informazioni.</div>
+    <a-scene>
+        <!-- Camera -->
+        <a-entity camera position="0 1.6 0" wasd-controls look-controls></a-entity>
+        
+        <!-- Stanze -->
+        <a-box position="0 1.25 -10" depth="20" height="2.5" width="10" color="#D3D3D3"></a-box>
+        <a-box position="0 1.25 10" depth="20" height="2.5" width="10" color="#D3D3D3"></a-box>
+        
+        <!-- Dipinti stanza 1 -->
+        <a-plane src="images/munch1.jpg" position="-4 1 -9.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
+        <a-plane src="images/munch2.jpg" position="-2 1 -9.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
+        <a-plane src="images/munch3.jpg" position="0 1 -9.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
+        <a-plane src="images/munch4.jpg" position="2 1 -9.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
+        <a-plane src="images/munch5.jpg" position="4 1 -9.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
+        <a-plane src="images/munch6.jpg" position="-3 1 -7.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
+        <a-plane src="images/munch7.jpg" position="3 1 -7.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
+
+        <!-- Dipinti stanza 2 -->
+        <a-plane src="images/munch8.jpg" position="-4 1 9.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
+        <a-plane src="images/munch9.jpg" position="-2 1 9.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
+        <a-plane src="images/munch10.jpg" position="0 1 9.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
+        <a-plane src="images/munch11.jpg" position="2 1 9.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
+        <a-plane src="images/munch12.jpg" position="4 1 9.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
+        <a-plane src="images/munch13.jpg" position="-3 1 7.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
+        <a-plane src="images/munch14.jpg" position="3 1 7.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
+
+        <!-- Sky -->
+        <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+
+    <!-- Dipinti -->
+    <a-assets>
+        <img id="munch1" src="images/munch1.jpg" alt="Dipinto di Munch 1">
+        <img id="munch2" src="images/munch2.jpg" alt="Dipinto di Munch 2">
+        <img id="munch3" src="images/munch3.jpg" alt="Dipinto di Munch 3">
+        <img id="munch4" src="images/munch4.jpg" alt="Dipinto di Munch 4">
+        <img id="munch5" src="images/munch5.jpg" alt="Dipinto di Munch 5">
+        <img id="munch6" src="images/munch6.jpg" alt="Dipinto di Munch 6">
+        <img id="munch7" src="images/munch7.jpg" alt="Dipinto di Munch 7">
+        <img id="munch8" src="images/munch8.jpg" alt="Dipinto di Munch 8">
+        <img id="munch9" src="images/munch9.jpg" alt="Dipinto di Munch 9">
+        <img id="munch10" src="images/munch10.jpg" alt="Dipinto di Munch 10">
+        <img id="munch11" src="images/munch11.jpg" alt="Dipinto di Munch 11">
+        <img id="munch12" src="images/munch12.jpg" alt="Dipinto di Munch 12">
+        <img id="munch13" src="images/munch13.jpg" alt="Dipinto di Munch 13">
+        <img id="munch14" src="images/munch14.jpg" alt="Dipinto di Munch 14">
+    </a-assets>
+
+    <script>
+        // JavaScript per gestire le informazioni sui dipinti
+        document.querySelectorAll('a-plane').forEach(plane => {
+            plane.addEventListener('click', function () {
+                let info = document.getElementById('info');
+                switch (plane.getAttribute('src')) {
+                    case 'images/munch1.jpg':
+                        info.innerHTML = 'Informazioni sul dipinto 1';
+                        break;
+                    case 'images/munch2.jpg':
+                        info.innerHTML = 'Informazioni sul dipinto 2';
+                        break;
+                    case 'images/munch3.jpg':
+                        info.innerHTML = 'Informazioni sul dipinto 3';
+                        break;
+                    case 'images/munch4.jpg':
+                        info.innerHTML = 'Informazioni sul dipinto 4';
+                        break;
+                    case 'images/munch5.jpg':
+                        info.innerHTML = 'Informazioni sul dipinto 5';
+                        break;
+                    case 'images/munch6.jpg':
+                        info.innerHTML = 'Informazioni sul dipinto 6';
+                        break;
+                    case 'images/munch7.jpg':
+                        info.innerHTML = 'Informazioni sul dipinto 7';
+                        break;
+                    case 'images/munch8.jpg':
+                        info.innerHTML = 'Informazioni sul dipinto 8';
+                        break;
+                    case 'images/munch9.jpg':
+                        info.innerHTML = 'Informazioni sul dipinto 9';
+                        break;
+                    case 'images/munch10.jpg':
+                        info.innerHTML = 'Informazioni sul dipinto 10';
+                        break;
+                    case 'images/munch11.jpg':
+                        info.innerHTML = 'Informazioni sul dipinto 11';
+                        break;
+                    case 'images/munch12.jpg':
+                        info.innerHTML = 'Informazioni sul dipinto 12';
+                        break;
+                    case 'images/munch13.jpg':
+                        info.innerHTML = 'Informazioni sul dipinto 13';
+                        break;
+                    case 'images/munch14.jpg':
+                        info.innerHTML = 'Informazioni sul dipinto 14';
+                        break;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
