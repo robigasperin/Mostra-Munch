@@ -28,22 +28,22 @@
         <a-box position="0 1.25 10" depth="20" height="2.5" width="10" color="#D3D3D3"></a-box>
         
         <!-- Dipinti stanza 1 -->
-        <a-plane src="images/munch1.jpg" position="-4 1 -9.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
-        <a-plane src="images/munch2.jpg" position="-2 1 -9.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
-        <a-plane src="images/munch3.jpg" position="0 1 -9.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
-        <a-plane src="images/munch4.jpg" position="2 1 -9.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
-        <a-plane src="images/munch5.jpg" position="4 1 -9.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
-        <a-plane src="images/munch6.jpg" position="-3 1 -7.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
-        <a-plane src="images/munch7.jpg" position="3 1 -7.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
+        <a-plane src="Autoritratto Con Bottiglia Di Vino.jpg" position="-4 1 -9.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
+        <a-plane src="Autoritratto con sigaretta.jpg" position="-2 1 -9.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
+        <a-plane src="Bacio con la fnestra.jpg" position="0 1 -9.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
+        <a-plane src="Il Monte Calvario.jpg" position="2 1 -9.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
+        <a-plane src="L'urlo.jpg" position="4 1 -9.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
+        <a-plane src="La Senna a Saint-Cloud.jpg" position="-3 1 -7.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
+        <a-plane src="La morte nella stanza della malata.jpg" position="3 1 -7.9" rotation="0 0 0" height="1.5" width="1"></a-plane>
 
         <!-- Dipinti stanza 2 -->
-        <a-plane src="images/munch8.jpg" position="-4 1 9.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
-        <a-plane src="images/munch9.jpg" position="-2 1 9.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
-        <a-plane src="images/munch10.jpg" position="0 1 9.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
-        <a-plane src="images/munch11.jpg" position="2 1 9.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
-        <a-plane src="images/munch12.jpg" position="4 1 9.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
-        <a-plane src="images/munch13.jpg" position="-3 1 7.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
-        <a-plane src="images/munch14.jpg" position="3 1 7.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
+        <a-plane src="Malinconia.jpg" position="-4 1 9.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
+        <a-plane src="Notte a Saint-Cloud.jpg" position="-2 1 9.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
+        <a-plane src="Ragazze sul ponte.jpg" position="0 1 9.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
+        <a-plane src="Sera sul viale Karl Johan.jpg" position="2 1 9.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
+        <a-plane src="ingres sulla spiaggia.jpg" position="4 1 9.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
+        <a-plane src="la fanciulla malata.jpg" position="-3 1 7.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
+        <a-plane src="la tempesta.jpg" position="3 1 7.9" rotation="0 180 0" height="1.5" width="1"></a-plane>
 
         <!-- Sky -->
         <a-sky color="#ECECEC"></a-sky>
@@ -51,20 +51,20 @@
 
     <!-- Dipinti -->
     <a-assets>
-        <img id="munch1" src="images/munch1.jpg" alt="Dipinto di Munch 1">
-        <img id="munch2" src="images/munch2.jpg" alt="Dipinto di Munch 2">
-        <img id="munch3" src="images/munch3.jpg" alt="Dipinto di Munch 3">
-        <img id="munch4" src="images/munch4.jpg" alt="Dipinto di Munch 4">
-        <img id="munch5" src="images/munch5.jpg" alt="Dipinto di Munch 5">
-        <img id="munch6" src="images/munch6.jpg" alt="Dipinto di Munch 6">
-        <img id="munch7" src="images/munch7.jpg" alt="Dipinto di Munch 7">
-        <img id="munch8" src="images/munch8.jpg" alt="Dipinto di Munch 8">
-        <img id="munch9" src="images/munch9.jpg" alt="Dipinto di Munch 9">
-        <img id="munch10" src="images/munch10.jpg" alt="Dipinto di Munch 10">
-        <img id="munch11" src="images/munch11.jpg" alt="Dipinto di Munch 11">
-        <img id="munch12" src="images/munch12.jpg" alt="Dipinto di Munch 12">
-        <img id="munch13" src="images/munch13.jpg" alt="Dipinto di Munch 13">
-        <img id="munch14" src="images/munch14.jpg" alt="Dipinto di Munch 14">
+        <img id="munch1" src="Autoritratto Con Bottiglia Di Vino.jpg" alt="Dipinto di Munch 1">
+        <img id="munch2" src="Autoritratto con sigaretta.jpg" alt="Dipinto di Munch 2">
+        <img id="munch3" src="Bacio con la fnestra.jpg" alt="Dipinto di Munch 3">
+        <img id="munch4" src="Il Monte Calvario.jpg" alt="Dipinto di Munch 4">
+        <img id="munch5" src="L'urlo.jpg" alt="Dipinto di Munch 5">
+        <img id="munch6" src="La Senna a Saint-Cloud.jpg" alt="Dipinto di Munch 6">
+        <img id="munch7" src="La morte nella stanza della malata.jpg" alt="Dipinto di Munch 7">
+        <img id="munch8" src="Malinconia.jpg" alt="Dipinto di Munch 8">
+        <img id="munch9" src="Notte a Saint-Cloud.jpg" alt="Dipinto di Munch 9">
+        <img id="munch10" src="Ragazze sul ponte.jpg" alt="Dipinto di Munch 10">
+        <img id="munch11" src="Sera sul viale Karl Johan.jpg" alt="Dipinto di Munch 11">
+        <img id="munch12" src="ingres sulla spiaggia.jpg" alt="Dipinto di Munch 12">
+        <img id="munch13" src="la fanciulla malata.jpg" alt="Dipinto di Munch 13">
+        <img id="munch14" src="la tempesta.jpg" alt="Dipinto di Munch 14">
     </a-assets>
 
     <script>
