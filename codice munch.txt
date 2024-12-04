@@ -73,16 +73,16 @@
             plane.addEventListener('click', function () {
                 let info = document.getElementById('info');
                 switch (plane.getAttribute('src')) {
-                    case 'images/munch1.jpg':
+                    case 'Autoritratto Con Bottiglia Di Vino.jpg':
                         info.innerHTML = 'Il dipinto "Autoritratto con bottiglia di vino" di Edvard Munch, realizzato nel 1906, cattura l'essenza dell'artista norvegese in un momento di introspezione e turbolenza interiore. Raffigura Munch seduto a un tavolo, con una bottiglia di vino e un bicchiere. La sua espressione è cupa e pensierosa, riflettendo la lotta personale con la depressione e l'alcolismo. L'uso dei colori forti e delle linee decise è tipico dello stile espressionista di Munch, mentre lo sfondo scuro e confuso accentua il senso di isolamento e disperazione. Il dipinto comunica una potente narrazione del conflitto interno dell'artista, rendendolo uno dei suoi lavori più emotivamente intensi e personali.';
                         break;
-                   case 'images/munch2.jpg':
+                   case 'Autoritratto con sigaretta.jpg':
                         info.innerHTML = '"Autoritratto con sigaretta" (1895) di Edvard Munch è un'opera potente che mostra l'artista norvegese in uno stato di riflessione e vulnerabilità. Munch si autoritrae con una sigaretta, il fumo avvolge il suo volto in un'atmosfera inquietante e onirica. Il suo sguardo diretto, quasi penetrante, trasmette un senso di introspezione e tormento interiore. La tavolozza di colori scuri e ombrosi contribuisce a creare un'aria di mistero e tensione. Questo dipinto esprime il conflitto personale di Munch con la sua salute mentale e il suo stile di vita bohémien. È una rappresentazione iconica della sua capacità di trasmettere profonde emozioni umane attraverso l'arte, rendendo il quadro un'opera fondamentale del movimento espressionista.';
                         break;
-                    case 'images/munch3.jpg':
+                    case 'Bacio con la fnestra.jpg':
                         info.innerHTML = '"Bacio con la finestra" (1892) di Edvard Munch è una rappresentazione intima e emotiva del momento di un bacio. Il dipinto cattura una coppia avvolta in un tenero abbraccio, immersa in un'atmosfera carica di passione e mistero. La scena è ambientata in un interno, vicino a una finestra che lascia filtrare una luce soffusa, creando un contrasto tra l'illuminazione naturale e le ombre avvolgenti. Munch utilizza colori caldi e sfumati per esprimere l'intensità emotiva del momento. La finestra non è solo un elemento architettonico, ma simboleggia anche una barriera tra il mondo interno della coppia e il mondo esterno. Questo dipinto esemplifica la capacità di Munch di esplorare temi universali di amore e desiderio, evocando profondi sentimenti attraverso una rappresentazione semplice ma potente.';
                         break;
-                    case 'images/munch4.jpg':
+                    case 'Il Monte Calvario.jpg':
                         info.innerHTML = '"Il Monte Calvario" di Edvard Munch, dipinto nel 1900, è un'opera drammatica che riflette la tormentata visione dell'artista sulla sofferenza e la redenzione. La scena ritrae il momento cruciale della crocifissione, ambientata sul Golgota, con figure stilizzate e contorte che emanano un senso di dolore e disperazione. Munch utilizza colori intensi e contrastanti per accentuare l'emotività del quadro, con tonalità cupe e sfumate che dominano la composizione. Le figure, dai volti distorti e dalle posture angosciate, esprimono la profondità del tormento umano. L'opera non è solo una rappresentazione biblica, ma anche una riflessione personale di Munch sui temi della sofferenza, della mortalità e del sacrificio. Questo dipinto esemplifica lo stile espressionista di Munch, caratterizzato da un forte impatto emotivo e simbolismo.';
                         break;
                     case 'images/munch5.jpg':
